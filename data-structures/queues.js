@@ -26,4 +26,3 @@ Queue.prototype.peek = function () {
 Queue.prototype.count = function () {
   return this._count - this.oldestIndex;
 };
-
